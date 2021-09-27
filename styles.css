@@ -1,0 +1,42 @@
+* {
+	box-border: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+main {
+	max-width: 70%;
+	min-width: 60ch;
+	padding-top: 3em;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	margin-top: 2em;
+}
+
+.title {
+	text-align: center;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-color: darkblue;
+	color: white;
+}
+
+.email {
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3em;
+}
